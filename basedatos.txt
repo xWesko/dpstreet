@@ -1,0 +1,18 @@
+CREATE TABLE `usuarios` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+ 
+ `nombre` varchar(50) NOT NULL,
+  `usuario` varchar(30) NOT NULL,
+ 
+ `password` varchar(100) NOT NULL,
+ 
+ `nivel` int(2) NOT NULL,
+ 
+ PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=latin1
+
+
+
+1	javier	admin	admin	1
+2	usu	usu	usu	2
+3	javi	javi	a14f8a540e78dae706d255750010a0f8(javi)	1
